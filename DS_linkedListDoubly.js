@@ -170,23 +170,23 @@ doubly.push("value5")
 console.log(doubly.shift())
 
 console.log(doubly.unshift(10));
-console.log("this is head",doubly.head)
-console.log("this is tail",doubly.tail)
+console.log("this is head", doubly.head)
+console.log("this is tail", doubly.tail)
 console.log(doubly.length)
 
-console.log("this is second index value",doubly.get(2));
-console.log("this is head",doubly.head)
-console.log("this is tail",doubly.tail)
+console.log("this is second index value", doubly.get(2));
+console.log("this is head", doubly.head)
+console.log("this is tail", doubly.tail)
 console.log(doubly.length)
 
-console.log("Set the value of a node at a specific index in the list:",doubly.set(2, 'value6'));
-console.log("this is head",doubly.head)
-console.log("this is tail",doubly.tail)
+console.log("Set the value of a node at a specific index in the list:", doubly.set(2, 'value6'));
+console.log("this is head", doubly.head)
+console.log("this is tail", doubly.tail)
 console.log(doubly.length)
 
-console.log("Insert a new node at a specific index in the list:",doubly.insert(2, 'value7'));
-console.log("this is head",doubly.head)
-console.log("this is tail",doubly.tail)
+console.log("Insert a new node at a specific index in the list:", doubly.insert(2, 'value7'));
+console.log("this is head", doubly.head)
+console.log("this is tail", doubly.tail)
 console.log(doubly.length)
 
 

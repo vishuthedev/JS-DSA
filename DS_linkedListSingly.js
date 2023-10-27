@@ -181,21 +181,21 @@ console.log(singly.shift())
 singly.push("value6")
 console.log(singly.unshift("value7"))
 
-console.log("this is second index value",singly.get(2));
+console.log("this is second index value", singly.get(2));
 
-console.log("Set the value of a node at a specific index in the list:",singly.set(2, "value8"));
+console.log("Set the value of a node at a specific index in the list:", singly.set(2, "value8"));
 
-console.log("Insert a new node at a specific index in the list:",singly.insert(2, "value9"));
+console.log("Insert a new node at a specific index in the list:", singly.insert(2, "value9"));
 console.log(singly.length)
 
-console.log("Remove a node at a specific index in the list:",singly.remove(2));
-console.log("this is head",singly.head)
-console.log("this is tail",singly.tail)
+console.log("Remove a node at a specific index in the list:", singly.remove(2));
+console.log("this is head", singly.head)
+console.log("this is tail", singly.tail)
 console.log(singly.length)
 
-console.log("Reverse the order of the list:",singly.reverse());
-console.log("this is head",singly.head)
-console.log("this is tail",singly.tail)
+console.log("Reverse the order of the list:", singly.reverse());
+console.log("this is head", singly.head)
+console.log("this is tail", singly.tail)
 console.log(singly.length)
 
 
